@@ -20,7 +20,7 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
-            Color(#colorLiteral(red: 0.3411764801, green: 0.6235294342, blue: 0.1686274558, alpha: 1)).edgesIgnoringSafeArea(.all)
+            Color(#colorLiteral(red: 0.521568656, green: 0.1098039225, blue: 0.05098039284, alpha: 1)).edgesIgnoringSafeArea(.all)
             VStack {
                 Text("Insights")
                     .fontWeight(.heavy)
@@ -52,7 +52,7 @@ struct BarView: View {
     var body: some View {
         VStack {
             ZStack(alignment: .bottom) {
-                Capsule().frame(width: 30, height: 200).foregroundColor(Color(#colorLiteral(red: 0.1778831482, green: 0.3959082961, blue: 0.07615936548, alpha: 1)))
+                Capsule().frame(width: 30, height: 200).foregroundColor(Color(#colorLiteral(red: 0.2781174779, green: 0.05758631974, blue: 0.03212559596, alpha: 1)))
                 Capsule().frame(width: 30, height: height).foregroundColor(Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)))
             }
             Text(title).padding(.top, 10).font(.system(size: 20))
